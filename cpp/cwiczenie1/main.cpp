@@ -3,16 +3,18 @@
 using namespace std;
 
 int main(){
-//cout<<"podaj x"<<endl;
-//int x;
-//cin >>x;
-//cout<<"podano"<<x<<endl;
-//if(x >0){
-//cout<<"wieksze od 0 \n";
-//}else{
-//
-//cout<<"mniejsze lub rowne 0 \n";
-for(int i = 1;a <;
+	int x;	
+cout<<"wpisz liczbe"<<endl;
+cin>> x;
+if(x<2){
+	cout<<"liczba  nie jest 2";
+
+for( int i =2; i*i <=x;i++){
+	i(x%i==0){
+cout<<"liczba nie jest pierwsza";
 }
+
+ }
+cout<<"liczba jest pierwsza";
 	return 0;
 }
