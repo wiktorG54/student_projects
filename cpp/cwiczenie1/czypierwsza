@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int x;	
+cout<<"wpisz liczbe"<<endl;
+cin>> x;
+
+bool czypierwsza = True;
+if(x<2){
+bool czypierwsza = false;
+}
+for( int i =2; i<x;i++){
+if(x%i==0){
+czypierwsza= false;
+}
+
+}
+if(czypierwsza){
+cout<<"liczba jest pierwsza";
+}else{
+cout<<"liczba nie jest parzysta";
+	return 0;
+}
